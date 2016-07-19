@@ -1,0 +1,22 @@
+{
+    "name": "1gt/form",
+    "description": "Bitrix component",
+    "keywords": ["bitrix", "component"],
+    "type": "bitrix-d7-component",
+    "authors": [
+        {
+            "name": "Sergey Balasov",
+            "email": "sbalasov@gmail.com"
+        }
+    ],
+    "support": {
+        "email": "sbalasov@gmail.com",
+        "issues": "https://github.com/1gt/form/issues",
+        "source": "https://github.com/1gt/form"
+    },
+    "license": "MIT",
+    "require": {
+        "php": ">=5.3",
+        "composer/installers": "~1"
+    }
+}
