@@ -38,14 +38,10 @@ $cv = \Bitrix\Main\Text\Converter::getHtmlConverter();
                 <input type="text" name="<?= $cv->encode($field['FIELD_NAME']); ?>"
                        value="<?= $cv->encode($field['VALUE']); ?>">
             <? endif; ?>
-            <? if (($field = $arResult['FIELDS']['PROPERTY_EMAIL'])) : ?>
+            <? /*if (($field = $arResult['FIELDS']['PROPERTY_EMAIL'])) : ?>
                 <input type="text" name="<?= $cv->encode($field['FIELD_NAME']); ?>"
                        value="<?= $cv->encode($field['VALUE']); ?>">
-            <? endif; ?>
-            <? if (($field = $arResult['FIELDS']['PROPERTY_PHONE'])) : ?>
-                <input type="text" name="<?= $cv->encode($field['FIELD_NAME']); ?>"
-                       value="<?= $cv->encode($field['VALUE']); ?>">
-            <? endif; ?>
+            <? endif;*/ ?>
             <button type="submit">Отправить</button>
         </form>
     </div>
